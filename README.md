@@ -1,5 +1,5 @@
 # Jekpack-StimulusJS-Template
-A jekyll boilerplate built upon **Jekpack** by **Yi Feng** with:
+A jekyll boilerplate built upon **[Jekpack](https://github.com/yfxie/jekpack)** by **[Yi Feng](https://github.com/yfxie)** with:
 - Webpack
 - Stimulus JS
 - A simple and effective SCSS architecture
