@@ -1,0 +1,16 @@
+{
+  "name": "daria_22_03",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@bincode/jekpack": "^1.9.0"
+  },
+  "scripts": {
+    "dev": "jekpack dev",
+    "build": "jekpack build",
+    "bundle": "jekpack bundle"
+  },
+  "dependencies": {
+    "stimulus": "^3.0.1"
+  }
+}

@@ -1,0 +1,18 @@
+FROM JEKPACK DOCS:
+
+All files located at assets folder are managed by webpack.
+For all files named main.js(inside assets/javascripts) and
+main.scss(inside assets/stylesheets) will be considered as entry files,
+these files will be pack via webpack. In HTML, include these files via
+{% asset_tag main.css %}, {% asset_tag main.js%}.
+
+For example,
+1. a file located at src/assets/stylesheets/some/page/main.scss can be included via:
+{% asset_tag some/page/main.css %}
+
+2. {% asset_path jekpack.jpg %} will return the output path of the image.
+If you want to refer it in .scss files, see:
+
+body {
+  background: url(~media/jekpack.jpg);
+}
