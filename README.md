@@ -1,5 +1,5 @@
 # Jekpack-StimulusJS-Template
-A jekyll boilerplate built upon *Jekpack* by *Yi Feng* with:
+A jekyll boilerplate built upon **Jekpack** by **Yi Feng** with:
 - Webpack
 - Stimulus JS
 - A simple and effective SCSS architecture
@@ -7,13 +7,13 @@ A jekyll boilerplate built upon *Jekpack* by *Yi Feng* with:
 
 ## Getting Started
 ### Install Jekpack
-$ npm install -g @bincode/jekpack # or yarn global add @bincode/jekpack
+`npm install -g @bincode/jekpack # or yarn global add @bincode/jekpack`
 
 ### Install the dependencies
-$ jekpack bundle
+`jekpack bundle`
 
 ### Start Dev Servers
-$ jekpack dev
+`jekpack dev`
 
 ## Documentation
 - Jekpack docs are available at https://jekpack.bincode.tw/
